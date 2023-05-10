@@ -52,7 +52,7 @@ function App() {
           return (
             <li key={todo.value}>
               <span>{todo.value}</span>
-              <span>{todo.isDone ? " a" : " A Fazer"}</span>
+              <span>{todo.isDone ? " teste" : " A Fazer"}</span>
               <button
                 onClick={function () {
                   removeToDo(index);
